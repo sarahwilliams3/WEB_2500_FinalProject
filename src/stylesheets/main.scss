@@ -1,1 +1,173 @@
+/** @format */
+//////////////// MAIN STYLES ////////////////
+body {
+  box-sizing: border-box;
+  background-color: #fdfbf9;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", Times, serif;
+}
 
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 2rem;
+}
+h2 {
+  font-size: 1.25rem;
+  margin: 1rem 0 1rem 0rem;
+}
+h3 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 1rem;
+  font-style: italic;
+}
+p {
+  font-size: 16px;
+  margin: 0rem 2rem;
+  line-height: 3rem;
+}
+a {
+  text-decoration: none;
+}
+//////////////// NAV STYLES ////////////////
+.navbar {
+  background-color: #303b3a;
+  color: white;
+
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+
+  margin: 0rem 0.25rem;
+}
+
+.active1 {
+  color: white;
+}
+
+.active1::after {
+  content: "";
+  display: block;
+  width: 60%;
+  padding-top: 3px;
+  border-bottom: 2px solid #efdfd3;
+}
+
+.small-logo {
+  width: 25%;
+}
+.white {
+  color: white;
+}
+//////////////// IMAGE CAROUSEL ////////////////
+.cimage {
+  height: 580px;
+}
+//////////////// HEADER END ////////////////
+.header-end {
+  background-color: #657b79;
+  color: white;
+}
+
+.btn-main {
+  background-color: #a3786b;
+  color: white;
+
+  margin-left: 1rem;
+
+  border: 1.5px #5e463e solid;
+}
+.btn-main a {
+  text-decoration: none;
+  color: white;
+}
+.social {
+  justify-content: center;
+  margin: 1rem 1.5rem;
+  padding: 0;
+}
+div {
+  padding: 0;
+  margin: 0;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+//////////////// MAIN CONTENT ////////////////
+hr {
+  margin: auto;
+  width: 85%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: 2px #303b3a solid;
+}
+.currentColor {
+  color: #d4b2a8;
+  margin: 0.5rem;
+  outline-color: #a3786b;
+}
+.resize {
+  border: #a3786b double 1px;
+  border-radius: 2%;
+  height: 300px;
+  width: 300px;
+}
+//////////////// FOOTER CONTENT ////////////////
+footer {
+  background-color: #303b3a;
+  margin-top: 2rem;
+}
+.big-logo {
+  width: 60%;
+  border: #a3786b 2px solid;
+}
+.underline {
+  text-decoration: underline;
+}
+//////////////// MEDIA QUERIES ////////////////
+@media screen and (max-width: 768px) {
+  .hide {
+    display: none;
+  }
+}
+@media screen and (min-width: 770px) {
+  .hide1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .small-logo {
+    width: 240px;
+    padding: 10px 0px;
+  }
+  .active1::after {
+    content: "";
+    display: block;
+    width: 25%;
+    padding-top: 3px;
+    border-bottom: 2px solid #efdfd3;
+  }
+
+  .row {
+    display: block;
+  }
+  .center-text-sm {
+    text-align: center;
+  }
+}
