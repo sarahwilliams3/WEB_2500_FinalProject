@@ -53,6 +53,9 @@ a {
 
   margin: 0rem 0.25rem;
 }
+.nav-link:hover {
+  color: #a3786b;
+}
 
 .active1 {
   color: white;
@@ -61,7 +64,7 @@ a {
 .active1::after {
   content: "";
   display: block;
-  width: 60%;
+  width: 75%;
   padding-top: 3px;
   border-bottom: 2px solid #efdfd3;
 }
@@ -131,6 +134,12 @@ hr {
   width: 100%;
   height: 100%;
 }
+.width1 {
+  width: 70%;
+}
+.width2 {
+  width: 50%;
+}
 //////////////// FOOTER CONTENT ////////////////
 footer {
   background-color: #303b3a;
@@ -149,7 +158,7 @@ footer {
 //////////////// ABOUT US CONTENT ////////////////
 
 .aboutus-section {
-  padding: 50px 0 40px;
+  padding-top: 40px;
 }
 .aboutus-title {
   letter-spacing: 0;
@@ -334,5 +343,12 @@ input[type="email"]:focus,
   }
   .center-text-sm {
     text-align: center;
+  }
+  nav {
+    position: absolute;
+    left: auto;
+  }
+  .cimage {
+    height: 300px;
   }
 }
